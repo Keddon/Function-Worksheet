@@ -6,12 +6,15 @@ Function Worksheet
 Calculate the circumference of a circle.
  */
 
-var circleAnswer = circleCalc(radius);
+
+var circleAnswer = circleCalc(2);
 
 function circleCalc(radius){
-    var result = radius * (2 * 3.14159);
-    return result;
+    var circleresult = radius * (2 * 3.14159);
+    return circleresult;
+
 }
 
-circleCalc(6);
-console.log(circleAnswer);
+console.log("The circumference is " + circleAnswer);
+
+
