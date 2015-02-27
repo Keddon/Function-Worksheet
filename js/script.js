@@ -18,3 +18,20 @@ function circleCalc(radius){      // holds the parameter for the function
 console.log("The circumference is " + circleAnswer); //prints the results to console
 
 
+/*
+Calculate the total number of bee stings to kill an animal
+ */
+
+var victimWeight = 100; 
+var totalSting = lethalAmount(victimWeight);
+
+function lethalAmount(weight){
+    var stingCount = weight * 8.666666667;
+    return stingCount;
+}
+
+
+console.log("It takes "+ totalSting + " bee stings to kill this animal");
+
+
+
